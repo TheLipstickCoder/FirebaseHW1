@@ -56,7 +56,7 @@ var config = {
         console.log(nextArr);
         
         //appending time to table
-        $('tableHead').append('<tr><td>' + dbName + '</td><td>' + dbDestination + '</td><td>' + dbFrequency + '</td><td>' + nextArr + '</td><td>' + mins + '</td></tr>')
+        $('#tableHead').append('<tr><td>' + dbName + '</td><td>' + dbDestination + '</td><td>' + dbFrequency + '</td><td>' + nextArr + '</td><td>' + mins + '</td></tr>')
         
 
     });
